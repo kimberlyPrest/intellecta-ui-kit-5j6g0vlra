@@ -1,6 +1,7 @@
 import { GlassCard } from '@/components/ui/glass-card'
-import { Calendar, User, Music } from 'lucide-react'
+import { Calendar, Music } from 'lucide-react'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
 
 export function ActivityTimeline() {
   return (
