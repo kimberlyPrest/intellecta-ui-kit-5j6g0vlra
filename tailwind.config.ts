@@ -53,6 +53,8 @@ export default {
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
+          lime: 'hsl(var(--intellecta-lime))',
+          purple: 'hsl(var(--intellecta-lavender))',
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
@@ -78,11 +80,18 @@ export default {
           lavender: 'hsl(var(--intellecta-lavender))',
           neutral: 'hsl(var(--intellecta-neutral))',
         },
+        surface: {
+          light: '#ffffff',
+          dark: '#0f172a',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      boxShadow: {
+        soft: '0 8px 30px rgba(0,0,0,0.08)',
       },
       animation: {
         'fade-in-stagger': 'fadeInStagger 0.5s ease-out forwards',
